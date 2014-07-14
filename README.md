@@ -58,6 +58,7 @@ Usage
 
 if your github ssh-private-key-file is ~/.ssh/id_rsa:
 ```sh
+mkdir -p files/default/.ssh
 cp ~/.ssh/id_rsa files/default/.ssh/id_rsa_github
 ```
 
